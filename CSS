@@ -1,0 +1,264 @@
+*{
+    font-family: "Alatsi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+      
+}
+.headimg img{  
+    height: 15%;
+    width: 85%;
+}
+.main_box{
+    background:url("modi.jpg");
+    height:60vh;
+    background-size: cover;
+    
+   
+}
+.btn_one i{
+    color:black;
+    font-size:30px ;
+    font-weight: 700px;
+    position:absolute;
+    left:16px;
+    line-height: 60px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.sidebar_menu{
+    position:fixed;
+    left:-300px;
+    height:100vh;
+    width:300px;
+    background-color: rgba(225,225,225,0.5);
+    box-shadow: 0px 2px 4px rgba(24, 8, 8, 0.7);
+    transition: all 0.3s linear;
+
+}
+.sidebar_menu .logo{
+    position: absolute;
+    width:100%;
+    line-height: 60px;
+    height:60px;
+    box-shadow:0px 2px 4px rgb(31, 168, 202) ;
+    z-index: auto;
+    
+}
+.sidebar_menu .logo a:{
+
+    position: absolute;
+    color:rgb(7, 5, 5);
+    left:50px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500px;
+}
+.sidebar_menu .btn_two i{
+    color:grey;
+    font-size: 25px;
+    line-height:60px;
+    position: absolute;
+    left: 260px;
+    /*opacity: 0;*/
+    cursor: pointer;
+    transition:all 0.3s linear ;
+
+}
+.sidebar_menu .menu{
+    position: absolute;
+    width: 100%;
+    top: 80px;
+
+}
+.sidebar_menu .menu li{
+    margin-top: 6px;
+    padding:10px 20px
+}
+.sidebar_menu .menu i,a{
+    color:black;
+    text-decoration: none;
+    padding:14px 20px;
+    position: relative;
+   
+
+}
+.sidebar_menu .menu i{
+    padding-right: 8px;
+    position:relative;
+    color: white;
+}
+
+
+
+#check{
+    display:none;
+}
+
+.btn_one:hover{
+    font-size: 40px;
+}
+.btn_two:hover{
+    font-size: 30px;
+}
+
+#check:checked ~ .sidebar_menu{
+    left: 0;
+
+}
+#check:checked ~ .btn_one i{
+    opacity: 0;
+}
+#check:checked ~ .sidebar_menu .btn_two i{
+    opacity: 1;
+}
+#logo {
+    font-family: "Garamond";
+    font-size: 1.7rem;
+    font-weight: 800;
+    color:#000;
+    text-decoration: none;
+    position:relative;
+    top: 4px;
+    }
+    .sidebar_menu .menu li:hover{
+        box-shadow: 0 0 4px rgba(15, 8, 8, 0.5);
+    }
+    .btn_one:hover{
+        font-size: 40px;
+    }
+    .btn_two:hover{
+        font-size: 30px;
+    }
+
+        
+        header ul {
+        list-style-type: none;
+        }
+        
+        header ul li {
+
+            display: inline-block;
+            margin: 0 ;
+            color:white;
+            font-family: 'Courier New', Courier, monospace;
+            margin-left: 3px;
+            font-size: 25px;
+            padding: 0 10px 0 10px;
+            align-items: end;
+            align-content: center;
+            position:relative;
+
+    
+            }
+        header ul{
+            list-style: none;
+            background: #003166;
+            
+        }
+        header ul li a{
+           display:block;
+           padding:10px 10px 10px 10px;
+           color:blue;
+           text-decoration: none;
+           font-size: 25px;
+           color:black;
+
+
+        }
+        header ul li ul.dropdown li{
+            display: block;
+
+        }
+        .headimg{
+            size: 10px;
+        }
+        
+        
+        header ul li:hover ul.dropdown{
+            display: block;
+            color: #000;
+
+        }
+            header ul.is-sticky li a {
+                color: #000;
+                }
+                
+                
+                header ul li a {
+                    margin: 5px 5px 5px 5px;
+                    color: #999;
+                    font-size: 16px;
+                   text-decoration: none;
+                   color:white;
+                   justify-content: space-between;
+                    align-items: center;
+
+                }
+                
+                
+                header ul.is-sticky li a.active {
+                color: #003166;
+                }
+                
+                    /* end: hero section styles */
+                    
+                    /* start: how it works styles */
+                    .card{
+                        width:200px;
+                        height: 250px;
+                        border:2px solid white;
+                        display: inline-block;
+                        margin:20px 20px 15px 15px;
+                        border-radius: 10px;
+                        text-align: center;
+                        align-content:space-evenly;
+                        box-shadow: 2px 4px white;
+                        transition: 5sec;
+                    
+                    }
+                    img{
+                        width:100%;
+                        height: fit-content;
+                        object-fit: cover;
+                        align-items: center;
+                        display: inline-block;
+                        position: relative;
+                        align-content:space-evenly;
+                        offset-distance: 20px;
+                        
+                        
+                            
+                        
+                    }
+                    .card:hover{
+                        box-shadow:0 8px 16px rgb(48, 166, 209);
+                        
+
+                    }
+                    #specialist .container h2{
+                        text-align: center;
+                        font-weight: 700;
+                        font-size: 40px;
+                        font-family: Georgia, 'Times New Roman', Times, serif;
+                        
+                    }
+footer {
+    background-color: #000;
+    color: white;
+    height:15rem;
+    line-height: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    object-fit:cover;
+    object-fit: cover;
+    margin-top:4rem;
+    gap:calc();
+    margin-bottom:0rem;
+ } 
+a.menu_link{
+    color: white;
+}
